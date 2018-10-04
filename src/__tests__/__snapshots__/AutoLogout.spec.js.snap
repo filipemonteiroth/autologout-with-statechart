@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loggedIn.idle 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#f1f1f1",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0053ad",
+        "color": "#ffffff",
+        "display": "flex",
+        "fontSize": "22px",
+        "height": "40px",
+        "justifyContent": "center",
+      }
+    }
+  >
+    You are about to be logged out
+  </div>
+</div>
+`;
+
+exports[`loggedIn.working 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#f1f1f1",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0053ad",
+        "color": "#ffffff",
+        "display": "flex",
+        "fontSize": "22px",
+        "height": "40px",
+        "justifyContent": "center",
+      }
+    }
+  >
+    You are working
+  </div>
+</div>
+`;
+
+exports[`loggedOff 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#f1f1f1",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#0053ad",
+        "color": "#ffffff",
+        "display": "flex",
+        "fontSize": "22px",
+        "height": "40px",
+        "justifyContent": "center",
+      }
+    }
+  />
+  <div>
+    <p>
+      You are logged off
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;
