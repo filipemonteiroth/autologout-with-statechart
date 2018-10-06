@@ -5,12 +5,12 @@ export const statechart = {
   initial: "loggedIn",
   states: {
     loggedIn: {
+      initial: "working",
       onEntry: "addMouseMoveListener",
       onExit: "removeMouseMoveListener",
       on: {
         LOGOUT: "loggedOff"
       },
-      initial: "working",
       states: {
         working: {
           onEntry: ["resetTimers", "startIdleTimer"],
